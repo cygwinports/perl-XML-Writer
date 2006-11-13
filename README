@@ -6,7 +6,7 @@ character data and constructs different types of markup, such as tags,
 comments, and processing instructions.
 
 Runtime requirements:
-  cygwin-1.5.19-4
+  cygwin-1.5.21-2
   perl-5.8.7-5
 
 Canonical homepage:
@@ -18,15 +18,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack perl-XML-Writer-0.600-X-src.tar.bz2
+  unpack perl-XML-Writer-0.602-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./perl-XML-Writer-0.600-X.cygport all
+  cygport ./perl-XML-Writer-0.602-X.cygport all
 
 This will create:
-  /usr/src/perl-XML-Writer-0.600-X-src.tar.bz2
-  /usr/src/perl-XML-Writer-0.600-X.tar.bz2
+  /usr/src/perl-XML-Writer-0.602-X-src.tar.bz2
+  /usr/src/perl-XML-Writer-0.602-X.tar.bz2
 
 -------------------------------------------
 
@@ -35,16 +35,19 @@ Files included in the binary package:
   /etc/postinstall/perl-XML-Writer.sh
   /usr/lib/perl5/vendor_perl/5.8/XML/Writer.pm
   /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/XML/Writer/.packlist
-  /usr/share/doc/Cygwin/perl-XML-Writer-0.600.README
-  /usr/share/doc/perl-XML-Writer-0.600/Changes
-  /usr/share/doc/perl-XML-Writer-0.600/README
-  /usr/share/doc/perl-XML-Writer-0.600/TODO
+  /usr/share/doc/Cygwin/perl-XML-Writer-0.602.README
+  /usr/share/doc/perl-XML-Writer-0.602/Changes
+  /usr/share/doc/perl-XML-Writer-0.602/README
+  /usr/share/doc/perl-XML-Writer-0.602/TODO
   /usr/share/man/man3/XML.Writer.3pm.gz
   /usr/share/perl/cygwin-pods/XML-Writer.pod
 
 ------------------
 
 Port Notes:
+
+----- version 0.602-1 -----
+Version bump.
 
 ----- version 0.600-1 -----
 Version bump.
